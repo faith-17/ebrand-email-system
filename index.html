@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Contact eBrand Promotion">
+
+  <title>Contact Us | eBrand Promotion</title>
+
+  <!-- Bootstrap CSS CDN -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+    crossorigin="anonymous"
+  >
+<!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Bootstrap Icons -->
+<link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+</head>
+
+<body>
+
+<!-- Header Section -->
+<header class="site-header">
+<nav class="navbar navbar-expand-lg container-fluid">
+<!--company logo-->
+<a class="navbar-brand" href="#logo-image">
+  <img src="images/logo-img.svg" alt="eBrand promotion logo image" class="logo-image">
+</a><!--company logo-->
+
+<!--mobile menue button-->
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+data-bs-target="#mainNavbar">
+
+<span class="navbar-toggler-icon"></span>
+
+</button><!--mobile menue button-->
+
+<!--navbarvigation links-->
+<div class="collapse navbar-collapse" id="mainNavbar">
+
+<ul class="navbar-nav ms-auto align-items-lg-center">
+
+<li class="nav-item">
+  <a class="nav-link" href="#Home">Home</a>
+</li>
+<li class="nav-item">
+  <a class="nav-link" href="#AboutUs">About Us</a>
+</li>
+<li class="nav-item">
+  <a class="nav-link" href="#Services">Services</a>
+</li>
+<li class="nav-item">
+  <a class="nav-link" href="#Contact">Contact</a>
+</li>
+</ul><!--navbarvigation links-->
+</div><!--navbarvigation links-->
+</nav><!--navbar-->
+</header><!--site-header-->
+
+<!--main contact section-->
+<main class="contact-section">
+
+<div class="formContainer">
+<div class="row g-4">
+
+  <!--left coloum contact form-->
+  <div class="col-lg-7">
+<div class="contactForm">
+
+  <form id="contactForm">
+<div class="formTitle">
+<i class="bi bi-telegram telegram-icon"></i>
+<span class="contact-form-title" id="Home">Send Us a Message</span>
+</div>
+
+<!--name field-->
+<div class="mb-3">
+<label for="clientName" class="form-label">Name:</label>
+<input type="text" required name="clientName" class="form-control" id="clientName" placeholder="Enter your name">
+</div>
+
+<!--email field-->
+<div class="mb-3">
+  <label for="clientEmail" class="form-label">Email:</label>
+  <input type="email" required name="clientEmail" class="form-control" id="clientEmail" placeholder="Enter your email">
+</div>
+
+<!--phone field-->
+<div class="mb-3">
+  <label for="clientPhone" class="form-label">Phone:</label>
+  <input type="tel" required name="clientTel" class="form-control" id="clientPhone" placeholder="Enter your phone number">
+</div>
+
+<!--subject field-->
+<div class="mb-3">
+  <label for="clientSubject" class="form-label">Subject:</label>
+  <input type="text" required name="clientEmailSubject" class="form-control" id="clientSubject" placeholder="Enter the subject of your message">
+</div>
+
+<!--message field-->
+<div class="mb-3">
+  <label for="clientMessage" class="form-label">Message:</label>
+  <textarea class="form-control" required name="clientMessage" id="clientMessage" rows="5" placeholder="Enter your message"></textarea>
+</div>
+
+<!--photo attachment field-->
+<div class="mb-3">
+  <label for="clientPhoto" class="form-label">Attach a Photo</label>
+
+  <div class="photo-upload-area">
+<i class="bi bi-cloud-arrow-up upload-icon"></i>
+<p>click to upload a photo</p>
+<small>JPG, PNG or JPEG</small>
+<input 
+type="file"
+class="form-control"
+name="clientPhoto"
+id="clientPhoto"
+accept=".jpg, .jpeg, .png">
+  </div><!--photo upload area-->
+</div><!--photo attachment field-->
+
+<!-- starting of form feedback-->
+<div class="form-message" id="formMessage" role="status" aria-live="polite"></div>
+<!--end of form feedback-->
+
+<!-- Email Delivery Animation -->
+<div class="email-animation" id="emailAnimation">
+
+    <dotlottie-wc
+        src="animation/email-delivery.json"
+        autoplay
+        loop>
+    </dotlottie-wc>
+
+    <p>Sending your message...</p>
+
+</div> <!-- End of email delivery animation -->
+
+<!--submit button-->
+<div class="mb-3" id="submitButton"> 
+  <button type="submit" class="btn btn-primary">Send Message</button>
+</div>
+
+</form><!--form-->
+
+</div><!--contact form-->
+  </div><!--left coloum contact form-->
+
+
+  <!--right coloum company contact info-->
+<div class="col-lg-5">
+<div class="companyContactInfo">
+
+  <div class="logo-image2" href="#logo-image" id="AboutUs">
+  <img src="images/logo-img.svg" alt="eBrand promotion logo image">
+</div>
+
+<div class="contact" id="Contact">
+<ul class="list-unstyled">
+  <li><i class="bi bi-geo-alt-fill"></i><span>Address:</span> No.7 Makeni Street, Wuse Zone 6, Abuja Nigeria.</li>
+  <li><i class="bi bi-telephone-fill"></i><span>Phone:</span> +2349034244099&nbsp; &nbsp;+2342018891754</li>
+  <li><i class="bi bi-envelope-fill"></i><span>Email:</span> sales@ebrandpromotion.com</li>
+</ul>
+</div>
+
+<div class="social-media" id="Services">
+  <span>Follow Us:</span>
+  <a href="https://www.facebook.com/officialebrand" target="_blank"><i class="bi bi-facebook"></i></a>
+  <a href="https://youtube.com/@ebrandpromotion-websitedes1665?si=v1ROh4-yr8pHZEG3" target="_blank"><i class="bi bi-youtube"></i></a>
+  <a href="https://www.instagram.com/official_ebrand?xtok=MXBnOHFsb3JoaWw3Mw==" target="_blank"><i class="bi bi-instagram"></i></a>
+  <a href="https://www.linkedin.com/company/officialebrand/" target="_blank"><i class="bi bi-linkedin"></i></a>
+</div><!--company contact info-->
+</div><!--right coloum company contact information-->
+
+</div><!--row-->
+</div><!--container-->
+</main><!--main contact section-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Lottie Animation Player -->
+<script
+    src="https://unpkg.com/@lottiefiles/dotlottie-wc@0.8.5/dist/dotlottie-wc.js"
+    type="module">
+</script>
+
+  <!-- Bootstrap JavaScript CDN -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"
+  ></script>
+
+  <!-- Custom JavaScript -->
+  <script src="js/main.js"></script>
+</body>
+</html>

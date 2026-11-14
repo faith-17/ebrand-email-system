@@ -1,0 +1,269 @@
+/* eBrand promotion Brand color */
+:root{
+    --brand-orange: #f7a761;
+    --brand-black: #171717;
+    --brand-white: #ffffff;
+
+    --light-background:#f8f8f8;
+    --text-color:#333333;
+    --border-color:#e5e5e5;
+}
+
+/*general styles*/
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color:black;
+    background-color: var(--light-background);
+    margin: 0;
+    padding: 0;
+}
+
+/* navvigationbar styles */
+.logo-image{
+    width: 90px;
+    height:50px;
+}
+
+.navbar{
+    background-color:#ffffff;
+    border-radius:10px;
+    margin-bottom:5%;
+    border-bottom: 1px solid #f7a761;
+}
+
+.navbar-nav .nav-link{
+    color:black;
+    font-size: 1.2;
+    text-decoration: solid;
+    font-weight: 400;
+}
+
+.navbar-toggler{ 
+    color:black;
+    border-color: white;
+}
+
+/* client form info styles */
+.formContainer{
+    margin-bottom: 5%;
+}
+
+.contactForm{
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 15px;
+    background-color: var(--brand-white);
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.formTitle{
+    background-color: var(--brand-orange);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.telegram-icon{
+    font-size: 34px;
+    color: var(--brand-white);
+    margin-right: 10px;
+}
+
+.formTitle span{
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--brand-white);
+}
+
+.form-label{
+    display: block;
+    margin-bottom: 5px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+/* photo upload area */
+.photo-upload-area{
+    background-color:rgb(240, 237, 233);;
+    border-radius:10px;
+    border:2px dashed rgb(238, 222, 201)  
+}
+.photo-upload-area{
+  display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;  
+}
+
+.upload-icon{
+    font-size:45px;
+    color: var(--brand-orange)
+}
+
+.photo-upload-area p{
+    font-size:1.4em;
+    margin-bottom:8px;
+}
+.photo-upload-area small{
+font-size:0.8em;
+margin-bottom:10px;
+}
+
+.btn.btn-primary{
+    background-color: var(--brand-orange);
+    border-color: var(--brand-orange);
+}
+
+/* company contact info */
+.companyContactInfo{
+background-color: var(--brand-white);
+}
+
+.companyContactInfo{
+      padding: 15px;  
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    /*brand contact style */
+    .logo-image2{
+        width: 100px;
+        height: 100px;
+}
+
+.contact{
+    padding-top: 5%;
+    border-top: 1px solid #f7a761; 
+}
+
+    .list-unstyled span{
+               font-size: 1em;
+               font-weight: 600;
+               margin-bottom: 10%;
+    }
+
+    .list-unstyled li{
+        margin-bottom: 60px;
+        margin-top: 40px;
+    }
+
+     .list-unstyled .bi{
+        font-size: 25px;
+        margin: 5px;
+        padding: 5px;
+        border-radius: 15px;
+        background-color: rgb(240, 228, 230);
+     }
+
+     .social-media {
+        border-top: 1px solid #f7a761;
+        padding-top: 10%;
+        padding-bottom: 5%;
+     }
+
+     .social-media span{
+        font-weight: 600;
+     }
+
+     .social-media .bi{
+        font-size: 20px;
+        margin-right: 20px;
+     }
+
+     .bi-youtube{
+        color: red;
+     }
+     .bi-instagram{
+        color: purple;
+     }
+     .bi-facebook{
+        color: rgb(49, 19, 221);
+     }
+     .bi-youtube{
+        color: red;
+     }
+
+
+
+/* Tablet and Mobile */
+
+/*company contact info */
+@media (max-width:768px){
+    .companyContactInfo{
+      margin: 5%;
+      padding: 15px;  
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    /*brand contact style */
+    .list-unstyled span{
+               font-size: 1em;
+               font-weight: 600;
+               margin-bottom: 10%;
+    }
+
+    .list-unstyled li{
+        margin-bottom: 15px;
+        margin-top: 10px;
+    }
+
+     .list-unstyled .bi{
+        font-size: 25px;
+        margin: 5px;
+        padding: 5px;
+        border-radius: 15px;
+        background-color: rgb(240, 228, 230);
+     }
+
+     .social-media span{
+        font-weight: 600;
+     }
+
+     .social-media .bi{
+        font-size: 20px;
+        margin-right: 20px;
+     }
+
+     .bi-youtube{
+        color: red;
+     }
+     .bi-instagram{
+        color: purple;
+     }
+     .bi-facebook{
+        color: rgb(49, 19, 221);
+     }
+     .bi-youtube{
+        color: red;
+     }
+}
+
+
+
+/* Email Delivery Animation */
+.email-animation {
+    display: none;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.email-animation.active {
+    display: block;
+}
+
+.email-animation dotlottie-wc {
+    display: block;
+    width: 180px;
+    height: 140px;
+    margin: 0 auto;
+}
+
+.email-animation p {
+    color: #171717;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 5px;
+}

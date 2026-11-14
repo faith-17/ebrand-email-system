@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="259" height="94" viewBox="0 0 259 94" role="img" aria-labelledby="title">
+  <title id="title">eBrand Promotion</title>
+  <g fill="#050505">
+    <text x="59" y="61" font-family="Arial, Helvetica, sans-serif" font-size="67" font-weight="800" letter-spacing="-4">Brand</text>
+  </g>
+  <text x="18" y="61" fill="#ef3f1b" font-family="Georgia, 'Times New Roman', serif" font-size="69" font-style="italic" font-weight="700">e</text>
+  <rect x="101" y="68" width="126" height="21" rx="0" fill="#ef3f1b"/>
+  <text x="108" y="84" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" letter-spacing="3.4">PROMOTION</text>
+</svg>
