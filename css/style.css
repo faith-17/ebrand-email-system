@@ -242,7 +242,6 @@ background-color: var(--brand-white);
 }
 
 
-
 /* Email Delivery Animation */
 .email-animation {
     display: none;
@@ -267,3 +266,15 @@ background-color: var(--brand-white);
     font-weight: 500;
     margin-top: 5px;
 }
+
+/*thank you message*/
+.text-success{
+font-size: 5em;
+}
+
+.btn.btn-primary{
+    background-color: blue;
+    border-color: blue;
+    border-radius: 5px;
+}
+ 
