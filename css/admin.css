@@ -1,0 +1,512 @@
+
+/* =====================================
+   eBrand Promotion - Admin Login Design
+===================================== */
+
+/* General Page Styling */
+.admin-login-page {
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f6fa;
+}
+
+/* Main Login Container */
+.login-container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 15px;
+}
+
+/* Login Card */
+.login-card {
+    width: 100%;
+    max-width: 440px;
+    background: #ffffff;
+    padding: 45px 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+}
+
+/* Company Logo */
+.login-logo {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.login-logo img {
+    width: 190px;
+    max-width: 100%;
+}
+
+/* Login Heading */
+.login-heading {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.login-heading h1 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #17233c;
+    margin-bottom: 10px;
+}
+
+.login-heading p {
+    color: #777777;
+    font-size: 14px;
+}
+
+/* Form Labels */
+.login-card .form-label {
+    font-size: 14px;
+    font-weight: 600;
+    color: #27344d;
+}
+
+/* Form Inputs */
+.login-card .form-control {
+    min-height: 48px;
+    border: 1px solid #dce1e9;
+    border-radius: 7px;
+    padding: 12px 14px;
+    font-size: 14px;
+}
+
+/* Input Focus Effect */
+.login-card .form-control:focus {
+    border-color: #1d4ed8;
+    box-shadow: 0 0 0 3px rgba(29, 78, 216, 0.10);
+}
+
+/* Password Field Wrapper */
+.password-wrapper {
+    position: relative;
+}
+
+.password-wrapper .form-control {
+    padding-right: 48px;
+}
+
+/* Password Visibility Button */
+.password-toggle {
+    position: absolute;
+    top: 50%;
+    right: 14px;
+    transform: translateY(-50%);
+    border: none;
+    background: transparent;
+    color: #777777;
+    font-size: 18px;
+}
+
+/* Login Button */
+.login-btn {
+    min-height: 49px;
+    background: #172b4d;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+    border-radius: 7px;
+    transition: background 0.3s ease;
+}
+
+/* Login Button Hover */
+.login-btn:hover {
+    background: #244575;
+    color: #ffffff;
+}
+
+/* Login Feedback */
+.login-message {
+    font-size: 13px;
+    margin-bottom: 15px;
+    color: #dc3545;
+}
+
+/* Login Footer */
+.login-footer {
+    text-align: center;
+    margin-top: 35px;
+}
+
+.login-footer p {
+    color: #999999;
+    font-size: 12px;
+    margin-bottom: 0;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 480px) {
+
+    .login-card {
+        padding: 35px 22px;
+    }
+
+    .login-heading h1 {
+        font-size: 24px;
+    }
+
+}
+
+
+/* =====================================
+   eBrand Promotion - Admin Dashboard
+===================================== */
+
+/* Dashboard General Styling */
+.admin-dashboard-page {
+    margin: 0;
+    min-height: 100vh;
+    background: #f4f6fa;
+    font-family: Arial, sans-serif;
+}
+
+/* Dashboard Layout */
+.dashboard-wrapper {
+    display: flex;
+    min-height: 100vh;
+}
+
+/* Sidebar */
+.dashboard-sidebar {
+    width: 250px;
+    min-height: 100vh;
+    background: #172b4d;
+    color: #ffffff;
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Sidebar Logo */
+.sidebar-logo {
+    text-align: center;
+    padding-bottom: 35px;
+}
+
+.sidebar-logo img {
+    width: 180px;
+    max-width: 100%;
+}
+
+/* Sidebar Navigation */
+.sidebar-navigation {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Sidebar Links */
+.sidebar-link {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+    padding: 13px 15px;
+    color: #dce5f2;
+    text-decoration: none;
+    border-radius: 7px;
+    font-size: 14px;
+    transition: background 0.3s ease;
+}
+
+/* Sidebar Link Hover */
+.sidebar-link:hover,
+.sidebar-link.active {
+    background: #29446c;
+    color: #ffffff;
+}
+
+/* Sidebar Icons */
+.sidebar-link i {
+    font-size: 18px;
+}
+
+/* Sidebar Footer */
+.sidebar-footer {
+    margin-top: auto;
+    padding-top: 30px;
+}
+
+.sidebar-footer p {
+    color: #aebbd0;
+    font-size: 11px;
+    margin: 0;
+    text-align: center;
+}
+
+/* Main Dashboard Area */
+.dashboard-main {
+    flex: 1;
+    min-width: 0;
+}
+
+/* Dashboard Header */
+.dashboard-header {
+    min-height: 105px;
+    background: #ffffff;
+    padding: 25px 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    border-bottom: 1px solid #e9edf3;
+}
+
+/* Header Title */
+.dashboard-header h1 {
+    font-size: 25px;
+    font-weight: 700;
+    color: #172b4d;
+    margin-bottom: 7px;
+}
+
+/* Header Description */
+.dashboard-header p {
+    color: #858c99;
+    font-size: 13px;
+    margin: 0;
+}
+
+/* Logout Button */
+.logout-btn {
+    background: #ffffff;
+    color: #d64545;
+    border: 1px solid #f0d5d5;
+    border-radius: 7px;
+    padding: 10px 16px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.logout-btn:hover {
+    background: #fff1f1;
+}
+
+/* Dashboard Content */
+.dashboard-content {
+    padding: 35px;
+}
+
+/* Statistics Cards */
+.stat-card {
+    background: #ffffff;
+    border: 1px solid #edf0f5;
+    border-radius: 10px;
+    padding: 24px;
+    min-height: 150px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.025);
+}
+
+/* Statistics Icons */
+.stat-icon {
+    width: 42px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #edf3ff;
+    color: #2454a6;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    font-size: 20px;
+}
+
+/* Statistics Labels */
+.stat-card p {
+    color: #7d8796;
+    font-size: 13px;
+    margin-bottom: 8px;
+}
+
+/* Statistics Numbers */
+.stat-card h2 {
+    color: #172b4d;
+    font-size: 28px;
+    font-weight: 700;
+    margin: 0;
+}
+
+/* Enquiries Section */
+.enquiries-section {
+    background: #ffffff;
+    border: 1px solid #edf0f5;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+/* Section Heading */
+.section-heading {
+    margin-bottom: 25px;
+}
+
+.section-heading h2 {
+    color: #172b4d;
+    font-size: 19px;
+    font-weight: 700;
+    margin-bottom: 7px;
+}
+
+.section-heading p {
+    color: #858c99;
+    font-size: 13px;
+    margin: 0;
+}
+
+/* Search and Filter Controls */
+.enquiry-controls {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    margin-bottom: 25px;
+}
+
+/* Search Box */
+.search-box {
+    width: 100%;
+    max-width: 350px;
+    position: relative;
+}
+
+.search-box i {
+    position: absolute;
+    left: 14px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #929baa;
+}
+
+.search-box input {
+    width: 100%;
+    min-height: 42px;
+    padding: 10px 12px 10px 40px;
+    border: 1px solid #dce1e9;
+    border-radius: 7px;
+    font-size: 13px;
+}
+
+/* Status Filter */
+.enquiry-controls .form-select {
+    max-width: 190px;
+    min-height: 42px;
+    font-size: 13px;
+    border-color: #dce1e9;
+}
+
+/* Enquiries Table */
+.enquiries-table {
+    min-width: 650px;
+    vertical-align: middle;
+}
+
+/* Table Headings */
+.enquiries-table thead th {
+    background: #f7f8fb;
+    color: #697487;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 15px;
+    border-bottom: 1px solid #e9edf3;
+}
+
+/* Table Cells */
+.enquiries-table tbody td {
+    color: #39465c;
+    font-size: 13px;
+    padding: 17px 15px;
+    border-bottom: 1px solid #edf0f5;
+}
+
+/* Empty State */
+.empty-state {
+    text-align: center;
+    padding: 45px 15px;
+}
+
+.empty-state i {
+    font-size: 38px;
+    color: #b7c1d0;
+}
+
+.empty-state h3 {
+    color: #39465c;
+    font-size: 17px;
+    margin-top: 15px;
+}
+
+.empty-state p {
+    color: #929baa;
+    font-size: 13px;
+}
+
+/* Mobile Dashboard Layout */
+@media (max-width: 768px) {
+
+    .dashboard-sidebar {
+        width: 75px;
+        padding: 25px 10px;
+    }
+
+    .sidebar-logo img {
+        width: 50px;
+    }
+
+    .sidebar-link {
+        justify-content: center;
+        padding: 13px 5px;
+    }
+
+    .sidebar-link span,
+    .sidebar-footer p {
+        display: none;
+    }
+
+    .dashboard-header {
+        padding: 20px;
+    }
+
+    .dashboard-header h1 {
+        font-size: 21px;
+    }
+
+    .dashboard-content {
+        padding: 20px;
+    }
+
+    .enquiries-section {
+        padding: 18px;
+    }
+
+    .enquiry-controls {
+        flex-direction: column;
+    }
+
+    .search-box,
+    .enquiry-controls .form-select {
+        max-width: 100%;
+    }
+
+}
+
+/* admin dashboard */
+
+/* Small Mobile Screens */
+@media (max-width: 480px) {
+
+    .dashboard-header {
+        align-items: flex-start;
+    }
+
+    .logout-btn {
+        padding: 9px 11px;
+        font-size: 12px;
+    }
+
+    .dashboard-content {
+        padding: 15px;
+    }
+
+}
