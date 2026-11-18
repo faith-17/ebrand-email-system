@@ -510,3 +510,18 @@
     }
 
 }
+
+
+/* Password Setup Page */
+.login-heading h2 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #17233c;
+    margin-bottom: 10px;
+}
+
+.login-heading p {
+    color: #777777;
+    font-size: 14px;
+    text-align: center;
+}

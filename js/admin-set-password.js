@@ -47,8 +47,13 @@ supabaseScript.onload = async function () {
             "text-danger"
         );
 
-        setPasswordForm.style.display = "none";
-        return;
+        setPasswordForm.style.display = "block";
+
+setPasswordButton.disabled = true;
+newPassword.disabled = true;
+confirmPassword.disabled = true;
+
+return;
     }
 
     // Confirm this invitation belongs to the intended admin
@@ -62,8 +67,13 @@ supabaseScript.onload = async function () {
             "text-danger"
         );
 
-        setPasswordForm.style.display = "none";
-        return;
+       setPasswordForm.style.display = "block";
+
+setPasswordButton.disabled = true;
+newPassword.disabled = true;
+confirmPassword.disabled = true;
+
+return;
     }
 
     // Handle password submission
