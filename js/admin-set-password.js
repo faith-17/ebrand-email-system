@@ -55,9 +55,8 @@ supabaseScript.onload = async function () {
     const invitedUser = data.user;
 
     if (
-        invitedUser.email?.toLowerCase() !== ADMIN_EMAIL.toLowerCase() ||
-        !invitedUser.invited_at
-    ) {
+    invitedUser.email?.toLowerCase() !== ADMIN_EMAIL.toLowerCase()
+) {
         showMessage(
             "This invitation is not valid for this account.",
             "text-danger"
